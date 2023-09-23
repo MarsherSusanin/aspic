@@ -1,0 +1,11 @@
+.btn-filter-tag {
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid var(--secondary-default);
+  background: none;
+  padding: 6px 12px;
+  color: var(--main-blue);
+}
+.btn-filter-tag:hover {
+  color: var(--main-white);
+}

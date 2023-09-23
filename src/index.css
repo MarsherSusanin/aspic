@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  /* main theme */
+  --main-blue: #3a86ff;
+  --main-gray: #e7e7e7;
+  --main-black: #222222;
+  --main-white: #fff;
+  /* for buttons */
+  --secondary-default: #3a86ff;
+  --secondary-hover: #2e6dcf;
+  --secondary-active: #2353a0;
+  --secondary-disabled: #686868;
+  /* for video category */
+  --category-G: #13ab10;
+  --category-PG: #dd3227;
+  --category-PG-13: #6838d0;
+  --category-R: #ab1010;
+  --category-NC-17: #266eda;
+  /* video tags */
+  --tag-top-views: #1ed1c7;
+  --tag-most-likes: #ad07fb;
+  --tag-weeks-top: #2acf62;
+  --tag-unknow-orange: #fb5607;
+  --tag-unknow-blue: #3a86ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}

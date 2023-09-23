@@ -1,0 +1,60 @@
+.container-upload {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 40px;
+}
+.upload-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  background-color: var(--main-white);
+  border-radius: 16px;
+  padding: 40px 210px;
+  justify-content: center;
+  align-items: center;
+}
+.upload-content__main {
+  flex-grow: 1;
+  align-self: stretch;
+  background: rgba(231, 231, 231, 0.6);
+  padding: 20px;
+}
+.upload-content__drop {
+  width: 100%;
+  border: 1px solid #cdcdcd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-height: 524px;
+}
+.upload-conent__text {
+  text-align: center;
+}
+.upload-conent__text h3 {
+  font-weight: 400;
+  color: #686868;
+}
+
+.upload-content__top {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+}
+.upload-content__cloud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #686868;
+}
+.upload-btn {
+  background-color: var(--secondary-default);
+  color: var(--main-white);
+  width: 120px;
+  height: 40px;
+}

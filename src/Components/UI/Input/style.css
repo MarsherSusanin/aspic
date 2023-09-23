@@ -1,0 +1,17 @@
+.input-search {
+  position: relative;
+  max-width: 483px;
+  width: 100%;
+}
+.input-search__input {
+  border: 1px solid var(--main-gray, #e7e7e7);
+  width: 100%;
+}
+.btn-search {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  width: 60px;
+  background-color: var(--secondary-default);
+}

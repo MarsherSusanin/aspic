@@ -1,0 +1,9 @@
+.logo-block {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.logo-text {
+  font-weight: 700;
+  color: var(--main-blue);
+}
