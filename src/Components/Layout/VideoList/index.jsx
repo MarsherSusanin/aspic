@@ -2,6 +2,7 @@ import Card from "../../UI/Card";
 import "./style.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 export default function VideoList() {
   const [isLoading, setLoading] = useState(false);
@@ -26,13 +27,15 @@ export default function VideoList() {
         <section className="video-grid">
           {video.map((elem, i) => {
             return (
-              <Card
-                id={i}
-                title={elem.title}
-                author={elem.author}
-                image={elem.image}
-                avatar={elem.avatar}
-              />
+              <Link to={`/video/${i}`} key={i}>
+                <Card
+                  id={i}
+                  title={elem.title}
+                  author={elem.author}
+                  image={elem.image}
+                  avatar={elem.avatar}
+                />
+              </Link>
             );
           })}
         </section>

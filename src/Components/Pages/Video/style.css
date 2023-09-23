@@ -3,3 +3,55 @@
   height: 810px;
   background-color: var(--main-black);
 }
+.info-bottom {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  margin-top: 10px;
+}
+.info-metriks {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.info-likes {
+  display: flex;
+  gap: 10px;
+}
+.info-likes h3 {
+  color: var(--main-blue);
+  font-weight: 600;
+}
+.main-info {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+.info {
+  flex-grow: 1;
+}
+.recommend-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 315px;
+  margin-top: 20px;
+}
+.recommend-card {
+  display: flex;
+  gap: 12px;
+}
+.recommend-card__image {
+  min-width: 150px;
+  width: 150px;
+  height: 90px;
+  object-fit: cover;
+}
+.recommend-card__info h3 {
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
