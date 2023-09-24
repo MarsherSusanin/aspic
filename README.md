@@ -17,42 +17,44 @@ sudo apt update && sudo apt upgrade
 
 Универсальные инструменты:
 
-        sudo apt install build-essential cmake pkg-config unzip yasm git checkinstall
-        
+```
+sudo apt install build-essential cmake pkg-config unzip yasm git checkinstall
+```        
     
  Библиотеки ввода-вывода изображений
-    ``` 
-    $ sudo apt install libjpeg-dev libpng-dev libtiff-dev
-    ``` 
+``` 
+sudo apt install libjpeg-dev libpng-dev libtiff-dev
+``` 
+
 Библиотеки видео/аудио - FFMPEG, GSTREAMER, x264 и так далее.
-    ```
-    sudo apt install libavcodec-dev libavformat-dev libswscale-dev libavresample-dev
-    sudo apt install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
-    sudo apt install libxvidcore-dev x264 libx264-dev libfaac-dev libmp3lame-dev libtheora-dev 
-    sudo apt install libfaac-dev libmp3lame-dev libvorbis-dev
-    sudo apt-get install gstreamer1.0-plugins-bad
-    ```
+```
+sudo apt install libavcodec-dev libavformat-dev libswscale-dev libavresample-dev
+sudo apt install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
+sudo apt install libxvidcore-dev x264 libx264-dev libfaac-dev libmp3lame-dev libtheora-dev 
+sudo apt install libfaac-dev libmp3lame-dev libvorbis-dev
+sudo apt-get install gstreamer1.0-plugins-bad
+```
 
 Библиотеки для python3:
-    ```
-    sudo apt-get install python3-dev python3-pip
-    sudo -H pip3 install -U pip numpy
-    sudo apt install python3-testresources
-    pip install sk-video
-    pip install transformers
-    pip install huggingface_hub
-    pip install RealESRGAN
-    pip install torch[cuda]
-    ```
+```
+sudo apt-get install python3-dev python3-pip
+sudo -H pip3 install -U pip numpy
+sudo apt install python3-testresources
+pip install sk-video
+pip install transformers
+pip install huggingface_hub
+pip install RealESRGAN
+pip install torch[cuda]
+```
 Библиотека параллелизма C++ for CPU
-    ```
-    sudo apt-get install libtbb-dev
-    ```
+```
+sudo apt-get install libtbb-dev
+```
 
 Библиотеки оптимизации для OpenCV
-    ```
-    sudo apt-get install libatlas-base-dev gfortran
-    ```
+```
+sudo apt-get install libatlas-base-dev gfortran
+```
 
 
 Установка CUDA Toolkit 12.2
